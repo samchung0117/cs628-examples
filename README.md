@@ -13,7 +13,7 @@ If you find any mistakes, please contact chungsam@cityu.edu.
 * Module 07 - MongoDB Atlas
 * Module 08 - Node, Express, and Express Router
 * Module 09 - MERN
-* Module 10 - MERN Continues
+* Module 10 - Authentication
 
 ## Resource
 ### Development Environment
@@ -22,7 +22,7 @@ If you find any mistakes, please contact chungsam@cityu.edu.
 * [About billing for GitHub Codespaces](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces)
 * [Cloud IDE - VSCode for the Web](https://code.visualstudio.com/docs/editor/vscode-web)
 ### Front End
-#### Angular
+#### React
 * [create-react-app - Getting Started](https://create-react-app.dev/docs/getting-started)
 * [React - React Quick Start](https://beta.reactjs.org/learn)
 * [W3School - React Tutorial](https://www.w3schools.com/react/default.asp)
@@ -48,3 +48,6 @@ If you find any mistakes, please contact chungsam@cityu.edu.
 ### MERN Stack Examples
 * [Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node](https://samchung0117-sturdy-pancake-v6pxvxv7r6rh4vr.github.dev/)
 * [MongoDB - How to Use MERN Stack: A Complete Guide](https://www.mongodb.com/languages/mern-stack-tutorial)
+
+### Authentication
+* [Passport](https://www.passportjs.org/docs/)
