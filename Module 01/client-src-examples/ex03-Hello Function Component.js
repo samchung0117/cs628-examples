@@ -1,7 +1,7 @@
 // Ex03 - Hello Function Component!
 function Hello() {
     return (
-        <h1>Example 02 - Hello Function Component!</h1>
+        <h1>Example 03 - Hello Function Component!</h1>
     );
 }
 
