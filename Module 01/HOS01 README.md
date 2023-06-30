@@ -16,7 +16,7 @@
 * [GitHub Codespaces](https://docs.github.com/en/codespaces)
 * [About billing for GitHub Codespaces](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces)
 * [Cloud IDE - VSCode for the Web](https://code.visualstudio.com/docs/editor/vscode-web)
-•	[16 Bash Commands Data Scientists Must Know](https://builtin.com/data-science/bash-commands)
+* [16 Bash Commands Data Scientists Must Know](https://builtin.com/data-science/bash-commands)
 * [Node - Getting Started](https://nodejs.dev/en/learn/)
 * [create-react-app - Getting Started](https://create-react-app.dev/docs/getting-started)
 * [GitHub Codespaces ♥️ Express](https://github.com/github/codespaces-express)
