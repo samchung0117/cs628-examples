@@ -1,5 +1,5 @@
 // Section08-Ex02-App.js
-//  Example of using ‘useState’ and ‘useEffect’ hooks in a functional component
+// Example of using ‘useState’ and ‘useEffect’ hooks in a functional component
 
 import React, { useState, useEffect } from 'react';
 
