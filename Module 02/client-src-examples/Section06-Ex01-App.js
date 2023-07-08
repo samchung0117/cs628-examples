@@ -1,6 +1,7 @@
-  // https://react.dev/learn#writing-markup-with-jsx
+// Section06-Ex01-App.js
+// Understanding JSX
   
-  function AboutPage() {
+function AboutPage() {
     return (
       <>
         <h1>About</h1>

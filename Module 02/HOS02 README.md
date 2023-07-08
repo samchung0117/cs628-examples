@@ -15,3 +15,25 @@
 * React
   * [create-react-react - Gettign Started](https://create-react-app.dev/docs/getting-started)
   * [React - Quick Start](https://react.dev/learn)
+  * [React - Quick Start - Writing markup with JSX](https://react.dev/learn#writing-markup-with-jsx)
+  * [React - Quick Start - Adding Styles](https://react.dev/learn#adding-styles)
+  * [React - Quick Start - Displaying Data](https://react.dev/learn#displaying-data)
+  * [React - useState](https://react.dev/reference/react/useState)
+  * [React - useEffect](https://react.dev/reference/react/useEffect#useeffect)
+
+**Practices**
+* Checking your computing environment
+  * node --version
+  * npx --version
+  * npm --version
+
+* Developing a frontend web app using React
+  * npx create-react-app client
+  * cd cleint
+  * npm start
+  
+* Developing a backed web app using Express
+  * mkdir server
+  * cd server
+  * npm init
+  * After creating server.js, npm start

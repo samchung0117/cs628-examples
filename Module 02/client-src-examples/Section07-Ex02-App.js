@@ -1,6 +1,6 @@
-// https://react.dev/learn#adding-styles
-// https://react.dev/learn#displaying-data
-import './css/ex04.css';
+// Section07-Ex02-App.js
+// Understanding Styles
+import './style.css';
 
 const user = {
     name: 'Hedy Lamarr',
@@ -25,12 +25,13 @@ function Profile() {
     );
 }
 
-function App() {
+function App ()
+{
     return (
-      <div>
-        <h1>Welcome to my app</h1>
-        <Profile />
-      </div>
+        <div>
+            <h1>Welcome to my app</h1>
+            <Profile />
+        </div>
     );
 }
 
