@@ -16,10 +16,17 @@
       * [useContext](https://react.dev/reference/react/useContext)
   * [Escape Hatches](https://react.dev/learn/escape-hatches)
     * [Section 5: Referencing Values with Refs](https://react.dev/learn/escape-hatches#referencing-values-with-refs)
-      *  useRef
+      * [useRef](https://react.dev/reference/react/useRef)
     * [Section 6: Manipulating the DOM with Refs](https://react.dev/learn/escape-hatches#manipulating-the-dom-with-refs)
-      *  useRef
+      * [useRef](https://react.dev/reference/react/useRef)
     * [Section 7: Synchronizing with Effects](https://react.dev/learn/escape-hatches#synchronizing-with-effects)
-      *  useRef, usefEfect
+      * [useEffect](https://react.dev/reference/react/useEffect)
     * [Section 8: Reusing Logic with Custom Hooks](https://react.dev/learn/escape-hatches#reusing-logic-with-custom-hooks)
-      * A user-defined Hook
+      * [Custom Hook](https://react.dev/learn/reusing-logic-with-custom-hooks#custom-hooks-sharing-logic-between-components)
+    * [Built-in React Hooks](https://react.dev/reference/react)
+      * [useState](https://react.dev/reference/react/useState)
+      * [useContext](https://react.dev/reference/react/useContext)
+      * [useReducer](https://react.dev/reference/react/useReducer)
+      * [useRef](https://react.dev/reference/react/useRef)
+      * [useEffect](https://react.dev/reference/react/useEffect)
+      * [Custom Hook](https://react.dev/learn/reusing-logic-with-custom-hooks#custom-hooks-sharing-logic-between-components)

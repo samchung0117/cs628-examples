@@ -1,6 +1,6 @@
-// Section 7
-// https://react.dev/learn/escape-hatches#synchronizing-with-effects
-
+// Section 7 - useEffect Hook
+// Example: https://react.dev/learn/escape-hatches#synchronizing-with-effects
+// Hook: https://react.dev/reference/react/useEffect
 import { useState, useRef, useEffect } from 'react';
 
 function VideoPlayer({ src, isPlaying }) {

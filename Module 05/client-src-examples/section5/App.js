@@ -1,5 +1,6 @@
-// Section 5
-// https://react.dev/learn/escape-hatches#referencing-values-with-refs
+// Section 5 - useRef Hook
+// Example: https://react.dev/learn/escape-hatches#referencing-values-with-refs
+// Hook: https://react.dev/reference/react/useRef
 import { useRef } from 'react';
 
 export default function Counter() {
