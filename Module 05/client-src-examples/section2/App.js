@@ -1,5 +1,6 @@
-// Section 2
-// https://react.dev/learn/managing-state#preserving-and-resetting-state
+// Section 2 - useState Hook
+// Example: https://react.dev/learn/managing-state#preserving-and-resetting-state
+// Hook: https://react.dev/reference/react/useState
 import { useState } from 'react';
 import Chat from './Chat.js';
 import ContactList from './ContactList.js';

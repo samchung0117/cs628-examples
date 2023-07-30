@@ -1,5 +1,6 @@
-// Section 3
-// https://react.dev/learn/managing-state#extracting-state-logic-into-a-reducer
+// Section 3 - useReducer Hook
+// Example: https://react.dev/learn/managing-state#extracting-state-logic-into-a-reducer
+// Hook: https://react.dev/reference/react/useReducer
 import { useReducer } from 'react';
 import AddTask from './AddTask.js';
 import TaskList from './TaskList.js';

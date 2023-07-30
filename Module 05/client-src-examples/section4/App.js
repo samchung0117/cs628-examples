@@ -1,5 +1,6 @@
-// Section 4
-// https://react.dev/learn/managing-state#passing-data-deeply-with-context
+// Section 4 - useContext Hook
+// Example: https://react.dev/learn/managing-state#passing-data-deeply-with-context
+// Hook: https://react.dev/reference/react/useContext 
 import Heading from './Heading.js';
 import Section from './Section.js';
 

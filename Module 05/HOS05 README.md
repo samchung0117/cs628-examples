@@ -9,10 +9,17 @@
 * React
   * [Managing State](https://react.dev/learn/managing-state)
     * [Section 2: Preserving and Resetting State](https://react.dev/learn/managing-state#preserving-and-resetting-state)
+      * [useState](https://react.dev/reference/react/useState)
     * [Section 3: Extracting State Logic into a Reducer](https://react.dev/learn/managing-state#extracting-state-logic-into-a-reducer) 
+      * [useReducer](https://react.dev/reference/react/useReducer)
     * [Section 4: Passing Data Deeply with Context](https://react.dev/learn/managing-state#passing-data-deeply-with-context)
+      * [useContext](https://react.dev/reference/react/useContext)
   * [Escape Hatches](https://react.dev/learn/escape-hatches)
     * [Section 5: Referencing Values with Refs](https://react.dev/learn/escape-hatches#referencing-values-with-refs)
+      *  useRef
     * [Section 6: Manipulating the DOM with Refs](https://react.dev/learn/escape-hatches#manipulating-the-dom-with-refs)
+      *  useRef
     * [Section 7: Synchronizing with Effects](https://react.dev/learn/escape-hatches#synchronizing-with-effects)
+      *  useRef, usefEfect
     * [Section 8: Reusing Logic with Custom Hooks](https://react.dev/learn/escape-hatches#reusing-logic-with-custom-hooks)
+      * A user-defined Hook
