@@ -4,16 +4,16 @@ CS 628 Full-Stack Development - Web App
 Students can find the examples that will be used for their practices in lecture or HOS (Hands-on Skills).
 If you find any mistakes, please contact chungsam@cityu.edu.
 
-* Module 01 - Experiencing AI-Powered Web App
+* Module 01 - Cloud Development Environment 
 * Module 02 - React Fundamentals
 * Module 03 - React - User Interface
 * Module 04 - React - Interaction and State
 * Module 05 - React - State & What You Step Outside
 * Module 06 - React Router
 * Module 07 - MongoDB Atlas
-* Module 08 - Full-Stack Web Application Part 1
-* Module 09 - Full-Stack Web Application Part 2
-* Module 10 - AI-Powered Full-Stack Web Application
+* Module 08 - Node, Express, and Express Router
+* Module 09 - MERN
+* Module 10 - Authentication
 
 ## Resource
 ### Development Environment
