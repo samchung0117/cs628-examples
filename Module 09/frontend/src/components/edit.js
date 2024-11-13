@@ -1,7 +1,5 @@
-// HOS10A edit.js
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router";
-import Navbar from "./navbar";
  
 export default function Edit() {
  const [form, setForm] = useState({
@@ -12,11 +10,12 @@ export default function Edit() {
  });
  const params = useParams();
  const navigate = useNavigate();
+ const backendUrl = process.env.REACT_APP_BACKEND_URL;
  
  useEffect(() => {
    async function fetchData() {
      const id = params.id.toString();
-     const response = await fetch(`YourBackendURL/record/${params.id.toString()}`);
+     const response = await fetch(`${backendUrl}/record/${params.id.toString()}`);
  
      if (!response.ok) {
        const message = `An error has occurred: ${response.statusText}`;
@@ -55,7 +54,7 @@ export default function Edit() {
    };
  
    // This will send a post request to update the data in the database.
-   await fetch(`YourBackendURL/record/${params.id}`, {
+   await fetch(`${backendUrl}/record/${params.id}`, {
      method: "PATCH",
      body: JSON.stringify(editedPerson),
      headers: {
@@ -63,13 +62,12 @@ export default function Edit() {
      },
    });
  
-   navigate("/");
+   navigate("/home");
  }
  
  // This following section will display the form that takes input from the user to update the data.
  return (
    <div>
-    <Navbar />
      <h3>Update Record</h3>
      <form onSubmit={onSubmit}>
        <div className="form-group">

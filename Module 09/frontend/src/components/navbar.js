@@ -1,4 +1,3 @@
-// // navbar.js
 import React from "react";
  
 // We import bootstrap to make our application look better.
