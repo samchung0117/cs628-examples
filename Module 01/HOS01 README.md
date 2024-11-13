@@ -1,14 +1,7 @@
 # HOS01: Cloud Development Environment  (CDE)
 ##  Learning Outcomes
-1.	Understand the MERN Stack and its components (MongoDB, Express, React, Node).
-2.	Analyze the role and importance of version control systems like GitHub in web development projects.
-3.	Evaluate the features and benefits of GitHub Codespaces as a cloud-based integrated development environment (IDE).
-4.	Apply the concepts of cloud IDEs and their advantages in web development workflows.
-5.	Create a basic Node.js application using frameworks like Express for server-side development.
-6.	Develop a React application for the client-side of a web app, understanding component-based architecture and UI rendering.
-7.	Evaluate the use of Markdown for creating structured and formatted documentation.
-8.	Analyze the fundamental concepts and principles of building a client-side web app with a "Hello World" example.
-9.	Analyze the fundamental concepts and principles of building a server-side web app with a "Hello World" example.
+1.	Accessing GitHub Codespaces
+2.	Install and Run AI-Powered Web App
 
 ## Resource
 ### Cloud Development Environment
@@ -29,21 +22,28 @@
 * [Codespace running Express!](https://github.com/github/codespaces-express/blob/main/index.js)
 
 **Practices**
-* Checking your computing environment
-  * node --version
-  * npx --version
-  * npm --version
+* Run Ollama Server
+  * Open New Terminal
+  * `curl -fsSL https://ollama.com/install.sh | sh`
+  * `ollama serve`
 
-* Developing a frontend web app using React
-  * npx create-react-app client
-  * cd cleint
-  * npm start
-  
-* Developing a backed web app using Express
-  * mkdir server
-  * cd server
-  * npm init
-  * After creating server.js, npm start
+* Pull and Chat with a Large Language Model (LLM) Conversational AI
+  *  Open New Terminal
+  *  `ollama pull gemma2:2b`
 
+* Run ExpressJS Backend Server
+  *  Open New Terminal
+  *  `cd backend`
+  *  `npm install`
+  *  `node index.js`
+  *  Make the Port Visibility `Public`
+  *  Copy the forwarded address ExpressJS
 
+* Run React.js Frontend Server
+  *  Copy your ExpressJS Forwarded Address
+  *  Create `.env` file and paste it after `REACT_APP_API_URL=` following: (use `example.env` as reference)
+  *  Open New Terminal
+  *  `cd frontend`
+  *  `npm install`
+  *  `npm start`
 
