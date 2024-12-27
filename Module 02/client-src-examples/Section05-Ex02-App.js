@@ -1,6 +1,5 @@
 // Section05-Ex02-App.js
 // Example of a stateful component:
-import React from 'react';
 import React, { Component } from 'react';
 
 class Counter extends Component {
