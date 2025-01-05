@@ -1,5 +1,5 @@
-// Section02-Ex01-Gallary.js
-// Default export - Gallary
+// Section02-Ex01-Gallery.js
+// Default export - Gallery
 function Profile() {
     return (
         <img
