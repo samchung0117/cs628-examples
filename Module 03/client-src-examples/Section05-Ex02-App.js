@@ -3,7 +3,7 @@
 // Image from https://i.imgur.com/YfeOqp2s.jpg
 
 import { getImageUrl } from './utils.js'
-import './css/styles.css';
+import './AvatarCSS.css';
 
 function Avatar({ person, size }) {
   return (
