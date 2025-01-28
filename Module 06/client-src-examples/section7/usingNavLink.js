@@ -7,7 +7,6 @@ import About from './About';
 import Details from './Details';
 import Team from './Team';
 import Member from './Member';
-import './App.css';
 
 class App extends Component {
   render() {
