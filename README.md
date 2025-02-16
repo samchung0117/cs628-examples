@@ -11,8 +11,8 @@ If you find any mistakes, please contact chungsam@cityu.edu.
 * Module 05 - React - State & What You Step Outside
 * Module 06 - React Router
 * Module 07 - MongoDB Atlas
-* Module 08 - Full-Stack Web Application Part 1
-* Module 09 - Full-Stack Web Application Part 2
+* Module 08 - Full-Stack Web Application Part 1 - Backend
+* Module 09 - Full-Stack Web Application Part 2 - Frontend
 * Module 10 - AI-Powered Full-Stack Web Application
 
 ## Resource
