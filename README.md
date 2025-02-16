@@ -51,3 +51,8 @@ If you find any mistakes, please contact chungsam@cityu.edu.
 
 ### Authentication
 * [Passport](https://www.passportjs.org/docs/)
+
+**GitHub Auto Synch Issues**
+* git add .
+* git commit -m "your_message"
+* git push --force
