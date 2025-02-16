@@ -8,7 +8,6 @@ export default function Create() {
    level: "",
  });
  const navigate = useNavigate();
- const backendUrl = process.env.REACT_APP_BACKEND_URL;
  
  // These methods will update the state properties.
  function updateForm(value) {
@@ -24,7 +23,7 @@ export default function Create() {
    // When a post request is sent to the create url, we'll add a new record to the database.
    const newPerson = { ...form };
  
-   await fetch(`${backendUrl}/record`, {
+   await fetch("<Replace your API URL/record>", {
      method: "POST",
      headers: {
        "Content-Type": "application/json",
@@ -37,7 +36,7 @@ export default function Create() {
    });
  
    setForm({ name: "", position: "", level: "" });
-   navigate("/home");
+   navigate("/");
  }
  
  // This following section will display the form that takes the input from the user.

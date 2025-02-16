@@ -39,3 +39,4 @@
 * **mkdir backend**
 * **cd backend**
 * **npm install mongodb express cors dotenv**
+* **node server.mjs**
